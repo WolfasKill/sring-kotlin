@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS TBL_PRODUCT;
+
+
+
+
+CREATE TABLE TBL_PRODUCT (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(250) NOT NULL,
+    quantity INT NOT NULL
+);
+
+
+
+commit;
+
+
+
